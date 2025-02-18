@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Mart - Grocery Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            background-color: #ff6347;
+            color: white;
+            padding: 15px;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .nav {
+            background-color: #333;
+            padding: 15px;
+        }
+        .nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .sale-banner {
+            background-color: yellow;
+            color: red;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .items, .accessories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+        }
+        .item, .accessory {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+            width: 220px;
+            text-align: center;
+        }
+        .blog {
+            padding: 20px;
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-post {
+            background: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Food Mart Grocery Store</div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#sale">Sale</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="sale-banner">Big Sale! Up to 50% Off on Selected Items!</div>
+    <div class="items">
+        <div class="item">
+            <h3>Apples</h3>
+            <p>Now: $1.99/lb</p>
+        </div>
+        <div class="item">
+            <h3>Milk</h3>
+            <p>Now: $2.49</p>
+        </div>
+        <div class="item">
+            <h3>Bread</h3>
+            <p>Now: $1.79</p>
+        </div>
+        <div class="item">
+            <h3>Eggs</h3>
+            <p>Now: $2.99/dozen</p>
+        </div>
+    </div>
+    <div class="accessories" id="accessories">
+        <h2>Accessories</h2>
+        <div class="accessory">
+            <h3>Reusable Bags</h3>
+            <p>Only $3.99 each</p>
+        </div>
+        <div class="accessory">
+            <h3>Water Bottles</h3>
+            <p>Only $5.99 each</p>
+        </div>
+        <div class="accessory">
+            <h3>Lunch Boxes</h3>
+            <p>Only $7.99 each</p>
+        </div>
+    </div>
+    <div class="blog" id="blog">
+        <h2>Food Mart Blog</h2>
+        <div class="blog-post">
+            <h3>Healthy Eating Tips</h3>
+            <p>Eating healthy is important for a balanced life. Here are some quick tips to improve your diet...</p>
+        </div>
+        <div class="blog-post">
+            <h3>How to Save on Groceries</h3>
+            <p>Learn how to save money while shopping for groceries without compromising on quality...</p>
+        </div>
+    </div>
+    <div class="footer">Visit us today! Sale ends soon.</div>
+</body>
+</html>
